@@ -1,0 +1,36 @@
+Benjamin Wilson & Christopher Sanchez
+Prelab 6
+October 11, 2021
+
+Script started on 2021-10-11 10:28:57-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="106" LINES="11"]
+]0;ben@Clover-VirtualBox: ~/cse113/prelab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab6[00m$ .[Kmake
+gcc -g -Wall -c student.c
+gcc -g -Wall prelab6.c student.o -o prelab6
+gcc -g -Wall prog1.c student.o -o prog1
+gcc -g -Wall prog2.c -o prog2
+]0;ben@Clover-VirtualBox: ~/cse113/prelab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab6[00m$ ./prelab6
+Shirley, ID:90081294, age:20, grade:72%
+Geronimo, ID:90021378, age:22, grade:78%
+Vivian, ID:90048396, age:18, grade:22%
+Adina, ID:90094945, age:19, grade:58%
+Bronson, ID:90012172, age:25, grade:92%
+]0;ben@Clover-VirtualBox: ~/cse113/prelab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab6[00m$ ./prog1
+Log your Student Information
+Note this Program does not perform any safety checks.
+Enter your name: Chris
+Enter your ID: 900357075
+Enter your age: 18
+Enter your grade: 85
+Chris, ID:900357075, age:18, grade:85%
+]0;ben@Clover-VirtualBox: ~/cse113/prelab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab6[00m$ ./prog2
+Enter your hourly pay-rate: 15.25
+Enter the amount of hours you worked this pay-period: 40
+You made $600.00 this pay-period. Don't forget to do your taxes!
+]0;ben@Clover-VirtualBox: ~/cse113/prelab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab6[00m$ exit[K[K[K[Kmake clean
+rm *.o student prelab6 prog1 prog2
+rm: cannot remove 'student': No such file or directory
+make: *** [makefile:22: clean] Error 1
+]0;ben@Clover-VirtualBox: ~/cse113/prelab6[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/prelab6[00m$ exit
+exit
+
+Script done on 2021-10-11 10:30:06-06:00 [COMMAND_EXIT_CODE="2"]
